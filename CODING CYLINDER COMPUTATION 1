@@ -1,0 +1,22 @@
+package selfProgramming2;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius, height, surfaceArea, baseArea, volume;
+		final double PI = 3.14159265;
+		
+		radius = 4.0;
+		height = 11.0;
+		
+		surfaceArea = (2.0*PI*radius*height) + (2.0*PI*radius*radius);
+	    baseArea = PI*radius*radius;
+	    volume = PI*radius*radius*height;
+		
+		System.out.println("The surfaceArea is " + surfaceArea);
+		System.out.println("The baseArea is " + baseArea);
+		System.out.println("The volume is " + volume);
+	}
+
+}
